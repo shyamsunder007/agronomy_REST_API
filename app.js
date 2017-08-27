@@ -16,9 +16,7 @@ var ObjectID = require('mongodb').ObjectID;
 
 
 
-//INDEX ROUTED .. PAGE TO DISPLAY DETAILS ABOUT API DOCUMENTATION
 
-var routes = require('./routes/index');
 var app = express();
 
 //Connection to mongodb hosted at mlab.com  and starting the server 
@@ -44,8 +42,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //INDEX REDIRECTION FOR API DOCUMENTATION
-app.use('/', routes);
 
+app.get('/', (req, res) => {
+    res.redirect("https://github.com/crespoter/agronomy_REST_API");
+});
 //REST API to return list of all villages
 app.get('/villagelist', (req, res) => {
     db.collection("villages").find().toArray((err, results) => {
