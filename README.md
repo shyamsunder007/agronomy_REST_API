@@ -123,17 +123,31 @@ Average land distribution in a village 		/land/village/:villageid
 		####### EXAMPLE BASED ON API HOSTED ON HEROKU ##############
 
 *https://sleepy-sands-75184.herokuapp.com/villagelist
+
 *https://sleepy-sands-75184.herokuapp.com/villageidlookup/599db538f36d28631711108e
+
 *https://sleepy-sands-75184.herokuapp.com/profit/village/599db538f36d28631711108e
+
 *https://sleepy-sands-75184.herokuapp.com/profit/person/crespoter
+
 *https://sleepy-sands-75184.herokuapp.com/profit/all
+
 *https://sleepy-sands-75184.herokuapp.com/cropcultivated/village/599db538f36d28631711108e
+
 *https://sleepy-sands-75184.herokuapp.com/cropcultivated/cropcultivated/all
+
 *https://sleepy-sands-75184.herokuapp.com/cropcultivated/village/599db538f36d28631711108e
+
 *https://sleepy-sands-75184.herokuapp.com/cropcultivated/person/crespoter
+
 *https://sleepy-sands-75184.herokuapp.com/pests/all
+
 *https://sleepy-sands-75184.herokuapp.com/pests/village/599db538f36d28631711108e
+
 *https://sleepy-sands-75184.herokuapp.com/pests/person/crespoter
+
 *https://sleepy-sands-75184.herokuapp.com/land/all
+
 *https://sleepy-sands-75184.herokuapp.com/land/village/599db538f36d28631711108e
+
 *https://sleepy-sands-75184.herokuapp.com/land/person/crespoter
